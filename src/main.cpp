@@ -11,7 +11,7 @@
 
 int main() {
 
-    std::ifstream mesh_file("Gear_alt");
+    std::ifstream mesh_file("Gear_alt.txt");
     double alpha = 1.;
     std::vector<double> beta = {0.,0.,0.};
     double gamma = 0.;
